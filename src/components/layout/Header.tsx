@@ -6,7 +6,7 @@ export const logoUrl = 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/rend
 
 const links = [
   ['HOME', '/'], ['ABOUT US', '/about'], ['SERVICES', '/services'],
-  ['OUR WORK', '/gallery'], ['CONTACT US', '/contact'],
+  ['OUR WORK', '/gallery'], ['CLIENTS', '/clients'], ['CONTACT US', '/contact'],
 ];
 
 export default function Header() {

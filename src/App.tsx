@@ -1,7 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Layout from './components/layout/Layout';
-import { HomePage, ServicesPage, AboutPage, ContactPage, GalleryPage, BookingPage } from './pages/SitePages';
+import { HomePage, ServicesPage, AboutPage, ContactPage, GalleryPage, BookingPage, ClientsPage } from './pages/SitePages';
 import AdminPage from './pages/AdminPage';
 import LoginPage from './pages/LoginPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
@@ -53,6 +53,7 @@ function App() {
                     <Route path="/contact" element={<ContactPage />} />
                     <Route path="/gallery" element={<GalleryPage />} />
                     <Route path="/booking" element={<BookingPage />} />
+                    <Route path="/clients" element={<ClientsPage />} />
                     <Route path="*" element={<NotFoundPage />} />
                   </Routes>
                 </AnimatePresence>
